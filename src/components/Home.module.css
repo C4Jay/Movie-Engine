@@ -7,3 +7,11 @@
     
 }
 
+.field {
+    top: 50%;
+    left: 45%;
+    margin-top: 400px;
+    margin-left: 400px;
+    background-color: azure
+}
+
