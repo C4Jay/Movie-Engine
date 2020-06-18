@@ -3,15 +3,39 @@
     top: 0%;
     position: absolute;
     text-align: center;
-    color: white
-    
+    color: white;/* 
+    margin-left: 34%; */
+    left: 25%;
+    margin-bottom: -100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .field {
-    top: 50%;
-    left: 45%;
+    /* position: fixed; */
     margin-top: 400px;
-    margin-left: 400px;
-    background-color: azure
+    /* margin-left: 289px; */
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgba(50, 247, 11, 0.4); */
+    outline: none;
+    /* width: 400px; */
 }
+
+
+.textfield {
+    font-family: 'Montserrat', sans-serif;
+    
+    background-color: rgba(50, 247, 11, 0.4);
+    width: 700px;
+    color: white;
+}
+
+ input {
+    /* color: white; */
+    font-family: 'Montserrat', sans-serif;
+}
+ 
 

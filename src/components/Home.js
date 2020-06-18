@@ -8,12 +8,19 @@ class Home extends Component {
   render() {
  
     return (
-        <div className={styles['title']}>
+      
+        <div className={styles.title}>
+        
           <h2>Home</h2>
-          <Link to="/about" style={{color : 'white'}}>about</Link>
-          <div className={styles['field']}>
-          <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <Link to="/about" style={{color : 'white'}}>about</Link>
+          
+          <div className={styles.field}>
+          <TextField
+           className={styles.textfield}
+            id="filled-basic" label="Filled" variant="filled"
+           />
           </div>
+          
 
         </div>
     );
