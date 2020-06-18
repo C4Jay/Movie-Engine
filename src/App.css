@@ -1,0 +1,178 @@
+body {
+  height: 100%;
+  background: linear-gradient(315deg, rgba(45, 52, 54,0.6) 0%, rgba(0, 0, 0,0.6) 74%),
+    url('https://i.imgur.com/TBSSmf6.jpg');
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  margin-top: 700px
+}
+
+
+
+
+.engine {
+  background-image: url('https://i.imgur.com/TBSSmf6.jpg');
+  background-size: cover;
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+@media only screen and (max-width: 420px) {
+  .background {
+    margin-top: 900px
+  }
+  .layer {
+    display: none;
+  }
+
+  #btn {
+    text-align: center;
+      font-size: 10px;
+     position: relative;
+     justify-content: center;
+     border-radius: 10px;
+      top: 70%;
+      margin-left: -200px;
+      
+      font-family: 'Playball', cursive;
+      color: yellow;
+      background-color: rgba(189, 53, 166, 0.808);
+   
+    background: rgb(39, 204, 24);
+    height: 50px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-family: 'Cookie', cursive;
+    /* position: relative; */
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-bottom: 500px
+  }
+  
+  #btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  #btn:hover {
+    background: transparent;
+  }
+  
+  #btn:hover #circle {
+    height: 50px;
+    width: 150px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
+}
+
+.layer {
+    /* background-color: rgba(26, 25, 25, 0.7); */
+    text-align: center;
+    font-size: 36px;
+   position: fixed;
+   justify-content: center;
+   border-radius: 10px;
+    top: 70%;
+    left: 80%;
+    width: 400px;
+    height: 150px;
+    font-family: 'Playball', cursive;
+    color: yellow;
+    background-color: rgba(189, 53, 166, 0.808);
+}
+
+
+
+#btn {
+  text-align: center;
+    font-size: 15px;
+   position: fixed;
+   justify-content: center;
+   border-radius: 10px;
+    top: 70%;
+    left: 60%;
+    width: 400px;
+    height: 150px;
+    font-family: 'Playball', cursive;
+    color: yellow;
+    background-color: rgba(189, 53, 166, 0.808);
+ 
+  background: rgb(61, 230, 56);
+  height: 50px;
+  min-width: 80px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-family: 'Cookie', cursive;
+  /* position: relative; */
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  margin-bottom: 400px
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
