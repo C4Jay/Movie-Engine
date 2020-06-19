@@ -70,8 +70,8 @@ body {
     background: #00B6FF;
     padding: 1em;
     border-radius: 10px;
-    /* clip-path: circle(50% at 0% 0%); */
-    /* transition: clip-path .5s ease-in-out; */
+    clip-path: circle(50% at 0% 0%);
+    transition: clip-path .5s ease-in-out;
 
     
 }
@@ -85,3 +85,7 @@ body {
     color: white;
     font-size: .8rem;
 }
+
+.box2:hover, .inner2 {
+    clip-path: circle(75%)
+} 
