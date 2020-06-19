@@ -2,6 +2,7 @@ body {
   height: 100%;
   background: linear-gradient(315deg, rgba(45, 52, 54,0.6) 0%, rgba(0, 0, 0,0.6) 74%),
     url('https://i.imgur.com/TBSSmf6.jpg');
+    /* url('https://wallpapersmug.com/download/1600x900/526278/justice-league-fan-art-poster-4k-8k.jpg'); */
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;

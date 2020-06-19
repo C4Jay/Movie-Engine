@@ -4,3 +4,44 @@
     position: absolute;
     text-align: center;
 }
+
+body {
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    margin-left: -45%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    /* margin-left: 100px; */
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+
+}
+
+.box, .inner {
+    background: #00B6FF;
+    padding: 1em;
+    border-radius: 10px;
+    clip-path: circle(50% at 0% 0%);
+    transition: clip-path .5s ease-in-out;
+
+    
+}
+
+.inner  h2 {
+    color: white;
+    margin: 0;
+}
+
+.inner p {
+    color: white;
+    font-size: .8rem;
+}
+
+.box:hover, .inner {
+    clip-path: circle(75%)
+} 
+
