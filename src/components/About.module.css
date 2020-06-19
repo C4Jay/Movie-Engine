@@ -5,7 +5,13 @@
     margin-top: -800px;
     /* align-content: center; */
     align-items: center;
+    left: 50%
     /* text-align: center; */
+}
+
+.main h1 {
+    text-align: center;
+    left: 50%
 }
 
 body {
@@ -50,3 +56,32 @@ body {
     clip-path: circle(75%)
 } 
 
+
+.box2 {
+    margin-left: 500px;
+
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+
+}
+
+.box2, .inner2 {
+    background: #00B6FF;
+    padding: 1em;
+    border-radius: 10px;
+    /* clip-path: circle(50% at 0% 0%); */
+    /* transition: clip-path .5s ease-in-out; */
+
+    
+}
+
+.inner2  h2 {
+    color: white;
+    margin: 0;
+}
+
+.inner2 p {
+    color: white;
+    font-size: .8rem;
+}
