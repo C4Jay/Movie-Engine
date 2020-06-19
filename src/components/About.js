@@ -20,25 +20,12 @@ class About extends Component {
       /* moviesresponse = response.data
       console.log(moviesresponse) */
       this.setState({
-        movie: response.data,
-        Title: response.data.Title,
-        Plot: response.data.Plot
+        movie: response.data
       })
     })
   }
   render() {
-    /* let list;
-    if(this.state.movies) {
-      list = this.state.movies.map(movie => {
-        return <div className={styles.box}>
-        <div className={styles.inner}>
-        <h2>{movie.Title}</h2>
-        <p>{movie.Plot}</p>
-  
-        </div>
-        </div>
-      })
-    } */
+    
     
 
     return (
@@ -46,18 +33,14 @@ class About extends Component {
           <div className={styles.title}>
           <h1 style={{color : 'white'}}>About</h1>
           </div>
-          {/* {list} */}
-         {/*  <div className={styles.box}>
-        <div className={styles.inner}>
-        <h2>{this.state.Title}</h2>
-        <p>{this.state.Plot}</p>
-  
-        </div>
-        </div> */}
+          
         <div className={styles.box2}>
         <div className={styles.inner2}>
-          <h2>{this.state.Title}</h2>
-          <p>{this.state.Plot}</p>
+        <img src={this.state.movie.Poster}></img>
+          <h2>{this.state.movie.Title}</h2>
+          <p>{this.state.movie.Plot}</p>
+          <h3>Cast</h3>
+          <p>{this.state.movie.Actors}</p>
           </div>
         </div>
           
